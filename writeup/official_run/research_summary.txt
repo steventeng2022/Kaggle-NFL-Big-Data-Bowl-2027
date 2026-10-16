@@ -1,0 +1,29 @@
+BEYOND THE STOPWATCH — COMPUTED RESEARCH SUMMARY
+
+Eligible receivers: 56. Training classes: (2023, 2024); holdout: 2025.
+
+Primary question: does tracked Combine speed add information beyond official measurements?
+
+Primary holdout n=16; official-model MAE=0.193 yd/s; MAE with tracking=0.192 yd/s.
+
+Paired ΔMAE=0.001 yd/s, conditional 95% bootstrap interval [-0.020, 0.026].
+
+Training + holdout player bootstrap (500 refits): 95% interval [-0.048, 0.032] yd/s.
+
+The refit interval includes zero; the incremental benefit is inconclusive.
+
+Context-adjusted speed · sensitivity: n=16; ΔMAE=0.001 yd/s; interval [-0.020, 0.022].
+
+Separation · exploratory: n=16; ΔMAE=0.002 yd; interval [-0.016, 0.018].
+
+Yards per route · exploratory: n=16; ΔMAE=0.004 yd/route; interval [-0.017, 0.027].
+
+Measurement check — Combine repeat attempts: n=81, Spearman rho=0.871.
+
+Measurement check — NFL disjoint games: n=56, Spearman rho=0.701.
+
+Football application: use disagreement between the stopwatch and sensor speed to prioritize film review.
+
+Interpretation: movement translation is an association, not a causal or overall talent score.
+
+Limits: selected WR cohort; one later draft class; route/team context; incomplete measurement coverage. Conditional intervals hold models fixed; the primary refit interval also resamples training players. Neither resamples draft classes or removes selection bias.

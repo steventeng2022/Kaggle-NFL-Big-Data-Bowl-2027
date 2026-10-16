@@ -1,0 +1,64 @@
+KAGGLE WRITEUP BASIC DETAILS
+
+TITLE (56/80 characters)
+Beyond the Stopwatch Combine Speed and Rookie NFL Routes
+
+SUBTITLE (119/140 characters)
+Testing whether Combine tracking adds information beyond official 40 times when estimating rookie receiver route speed.
+
+WRITEUP URL
+Keep the existing draft URL, or use this suggested slug if Kaggle allows editing it:
+beyond-the-stopwatch-combine-to-nfl
+
+SUBMISSION TRACK
+Open Track
+The official page states that Open Track has no eligibility restrictions. University Track requires a team composed entirely of undergraduate students.
+
+CARD AND THUMBNAIL IMAGE
+Upload kaggle_cover_560x280.png (exactly 560 x 280 pixels).
+The image is a conceptual cover, not a chart of measured results.
+
+PROJECT DESCRIPTION
+Paste the contents of kaggle_project_description.md.
+Approximate word count: 1490; the published limit is 2,000 words.
+Results and captions are populated from the verified official-data output archive.
+
+PROJECT LINKS
+Source code: https://github.com/steventeng2022/Kaggle-NFL-Big-Data-Bowl-2027
+Notebook source: https://github.com/steventeng2022/Kaggle-NFL-Big-Data-Bowl-2027/blob/main/nfl_big_data_bowl_2027.ipynb
+Colab: https://colab.research.google.com/github/steventeng2022/Kaggle-NFL-Big-Data-Bowl-2027/blob/main/nfl_big_data_bowl_2027.ipynb
+Executed Kaggle Notebook: https://www.kaggle.com/code/steventeng2022/nfl-big-data-bowl-2027
+VISIBILITY: The viewing page marked this notebook Private when inspected. Make it Public before attaching it to the competition writeup.
+The supplied /edit/run/358376288 URL is an editor link; use the viewing URL above for judges.
+
+FILES
+Attach the public executed Kaggle Notebook through Kaggle's resource selector; a GitHub link does not replace that requirement. The source notebook and original receiver_speed_results.zip are included in this package for reproducibility.
+
+MEDIA GALLERY AND EMBEDDED FIGURES
+The description includes five figures and one table, below the published fewer-than-ten limit. Upload the PNGs from official_run and replace the relative image paths with Kaggle's uploaded image links. Captions are already included.
+Figure 1: official_run/02_cohort_and_coverage.png
+Figure 2: official_run/01_combine_signal.png
+Figure 3: official_run/05_measurement_repeatability.png
+Figure 4: official_run/03_translation_and_holdout.png
+Figure 5: official_run/04_incremental_value.png
+The original PNG and SVG figures are included unchanged. No YouTube video is needed.
+
+VERIFIED RESULT
+Eligible receivers: 56 (2023: 20; 2024: 20; 2025: 16).
+Primary training/holdout: 40 / 16.
+Official MAE: 0.1929 yd/s.
+Tracking MAE: 0.1921 yd/s.
+Reduction: 0.0007 yd/s (0.38%).
+Refit 95% interval: [-0.0481, 0.0321] yd/s.
+Conclusion: incremental benefit is inconclusive.
+All 25 output SHA-256 hashes match the source manifest.
+
+DOI CITATION
+Optional personal choice. Enable the opt-in if you want Kaggle to create a permanent citation after the competition. This draft does not choose that setting for you.
+
+STATUS
+Description completed with verified official-run results and reviewed figures. Not published or submitted. Notebook visibility must be changed from Private to Public before submission. Relative figure paths must be replaced after uploading the figures in Kaggle.
+
+OFFICIAL REFERENCES
+Overview and requirements: https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/overview/timeline
+Track eligibility: https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/overview/tracks-and-awards

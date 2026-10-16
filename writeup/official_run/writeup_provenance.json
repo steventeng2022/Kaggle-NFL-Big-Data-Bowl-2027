@@ -1,0 +1,12 @@
+{
+  "notebook_url": "https://www.kaggle.com/code/steventeng2022/nfl-big-data-bowl-2027",
+  "user_supplied_editor_url": "https://www.kaggle.com/code/steventeng2022/nfl-big-data-bowl-2027/edit/run/358376288",
+  "viewed_saved_version": 4,
+  "latest_edit_run_id_observed_on_view_page": "358738864",
+  "visibility_observed": "Private",
+  "pipeline_version": "3.0.0",
+  "archive_sha256": "ec59bf1e6fd5b50c15599a7ed58cce7fbb99133fd786a08b390f84c9246f9e31",
+  "verified_output_hashes": 25,
+  "verification_scope": "Downloaded run outputs, manifest consistency, cross-table consistency and figure review. Raw competition data was not rerun locally.",
+  "synthetic_fixture_results_used": false
+}
